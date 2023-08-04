@@ -13,15 +13,15 @@ def call_atm():
         valor -= cinco * 5
         um = valor  # Depois de subtrair as de cinco só sobram as de um
         if cem > 0:
-            print('{} nota(s) de cem reais'.format(cem))
+            print('{} nota(s) de cem dolares'.format(cem))
         if cinquenta > 0:
-            print('{} nota(s) de cinquenta reais'.format(cinquenta))
+            print('{} nota(s) de cinquenta dolares'.format(cinquenta))
         if dez > 0:
-            print('{} nota(s) de dez reais'.format(dez))
+            print('{} nota(s) de dez dolares'.format(dez))
         if cinco > 0:
-            print('{} nota(s) de cinco reais'.format(cinco))
+            print('{} nota(s) de cinco dolares'.format(cinco))
         if um > 0:
-            print('{} moedas(s) de um real'.format(um))
+            print('{} moedas(s) de um dolares'.format(um))
 
 
 call_atm()
