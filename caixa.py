@@ -16,6 +16,12 @@ def caixa_eletronico(valor):
         if quantidade > 0:
             print(f"{quantidade} nota(s) de R${nota}")
 
+def cabecalho():
+    print('*' * 40)
+    print('Bem vindo ao Caixa Eletronico STEM')
+    print('*' * 40)
+
 # Exemplo de uso
+cabecalho()
 valor_saque = int(input("Informe o valor do saque: "))
 caixa_eletronico(valor_saque)
